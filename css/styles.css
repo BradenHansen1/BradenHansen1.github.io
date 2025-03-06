@@ -27,7 +27,7 @@ th, td {
 th {
     background-color: gray;
     font-size: 18px;
-    color: white; /* Ensures text is readable on gray background */
+    color: white; 
 }
 
 .colhead {
@@ -36,7 +36,7 @@ th {
 
 img {
     height: 100px;
-    width: auto; /* Maintain aspect ratio */
+    width: 100px; 
 }
 
 li:nth-child(1) {
