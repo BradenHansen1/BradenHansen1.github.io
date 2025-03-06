@@ -1,113 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Superheroes</title>
-        <link rel="stylesheet" href="BradenHansen1.github.io/css/main.css">
-
-        <style>
-            body
-            {
-                background-color: rgb(255, 255, 177);
-            }
-            h1, h2, h3
-            {
-                color: red;
-            }
-            #superman
-            {
-                color: red;
-            }
-            .colhead
-            {
-                color:purple
-            }
-            h2
-            {
-                color: purple;
-            }
-            img
-            {
-                height: 100px;
-            }
-            td, th
-            {
-                border: 2px solid black;
-                padding: 15px;
-                background-color: lightsalmon;
-                
-            }
-            table
-            {
-                border-collapse: collapse;
-            }
-            th
-            {
-                background-color: gray;
-                font-size: 18px;
-            }
-            li:nth-child(1)
-            {
-                color: darkgreen;
-            }
-            table ul
-            {
-                color: aqua;
-            }
-        </style>
-
-    </head>
-    <body>
-        <h1>My Superheroes</h1>
-        <table>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Superheroes Table</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Superheroes Table</h1>
+        <table class="superheroes-table">
             <thead>
                 <tr>
-                    <th class="colhead">Name</th>
-                    <th class="colhead">Alias</th>
-                    <th class="colhead">Image</th>
-                    <th class="colhead">Superpowers</th>
-                    <th class="colhead">Weaknesses</th>
+                    <th>Name</th>
+                    <th>Alias</th>
+                    <th>Power</th>
+                    <th>Team</th>
+                    <th>Year</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <th>Batman</th>
-                    <td>Bruce&nbsp;Wayne</td>
-                    <td><a href="images/batmanprofile.jpg"><img src="images/batmanprofile.jpg" alt="Batman Pic"></a></td>
-                    <td>N/A</td>
-                    <td>
-                        <ul>
-                            <li>Human/Vulnerable</li>
-                            <li>Childhood Trauma</li>
-                            <li>Won't Kill</li>
-                        </ul>
-                    </td>
+                    <td>Clark Kent</td>
+                    <td>Superman</td>
+                    <td>Super Strength</td>
+                    <td>Justice League</td>
+                    <td>1938</td>
                 </tr>
                 <tr>
-                    <th id="superman">Superman</th>
-                    <td>Clark&nbsp;Kent</td>
-                    <td><a href="images/superman.jpg"><img src="images/superman.jpg" alt="Superman Pic"></a></td>
-                    <td>
-                        <ul>
-                            <li>Invulnerable</li>
-                            <li>Flight</li>
-                            <li>Super Strong</li>
-                            <li>X-Ray Vision</li>
-                            <li>Laser Eyes</li>
-                        </ul>
-                    </td>
-                    <td>
-                        Kryptonite
-                    </td>
+                    <td>Bruce Wayne</td>
+                    <td>Batman</td>
+                    <td>Genius Intellect</td>
+                    <td>Justice League</td>
+                    <td>1939</td>
+                </tr>
+                <tr>
+                    <td>Diana Prince</td>
+                    <td>Wonder Woman</td>
+                    <td>Super Strength</td>
+                    <td>Justice League</td>
+                    <td>1941</td>
+                </tr>
+                <tr>
+                    <td>Peter Parker</td>
+                    <td>Spider-Man</td>
+                    <td>Spider-Sense</td>
+                    <td>Avengers</td>
+                    <td>1962</td>
                 </tr>
             </tbody>
         </table>
-        <p>Some other Superheroes:
-            <ul>
-                <li>Green Lantern</li>
-                <li>Wolverine</li>
-            </ul>        
-        </p>
-        
-    </body>
+    </div>
+</body>
 </html>
