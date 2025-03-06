@@ -5,14 +5,12 @@ body {
     padding: 20px;
 }
 
-/* Title Styles */
 .title {
     color: red;
     text-align: center;
     margin-bottom: 20px;
 }
 
-/* Table Styles */
 .superheroes-table {
     width: 100%;
     border-collapse: collapse;
@@ -36,13 +34,11 @@ th {
     color: purple;
 }
 
-/* Responsive Image Styles */
 img {
     height: 100px;
     width: auto; /* Maintain aspect ratio */
 }
 
-/* List Styles */
 li:nth-child(1) {
     color: darkgreen;
 }
@@ -50,8 +46,6 @@ li:nth-child(1) {
 table ul {
     color: aqua;
 }
-
-/* Responsive Design */
 @media (max-width: 768px) {
     th, td {
         padding: 10px;
