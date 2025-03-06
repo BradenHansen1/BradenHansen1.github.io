@@ -1,60 +1,64 @@
-
 body {
+    background-color: rgb(255, 255, 177);
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 20px;
-    background-color: #f4f4f4;
 }
 
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    background: white;
-    border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-}
-
+/* Title Styles */
 .title {
+    color: red;
     text-align: center;
-    font-size: 24px;
     margin-bottom: 20px;
-    color: #333;
 }
 
+/* Table Styles */
 .superheroes-table {
     width: 100%;
     border-collapse: collapse;
+    margin: 0 auto;
 }
 
-.superheroes-table th,
-.superheroes-table td {
-    padding: 12px;
+th, td {
+    border: 2px solid black;
+    padding: 15px;
+    background-color: lightsalmon;
     text-align: left;
-    border: 1px solid #ddd;
 }
 
-.superheroes-table th {
-    background-color: #4CAF50;
-    color: white;
+th {
+    background-color: gray;
+    font-size: 18px;
+    color: white; /* Ensures text is readable on gray background */
 }
 
-.superheroes-table tr:nth-child(even) {
-    background-color: #f2f2f2;
+.colhead {
+    color: purple;
 }
 
-.superheroes-table tr:hover {
-    background-color: #ddd;
+/* Responsive Image Styles */
+img {
+    height: 100px;
+    width: auto; /* Maintain aspect ratio */
 }
 
-@media (max-width: 600px) {
-    .superheroes-table th,
-    .superheroes-table td {
+/* List Styles */
+li:nth-child(1) {
+    color: darkgreen;
+}
+
+table ul {
+    color: aqua;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    th, td {
         padding: 10px;
-        font-size: 14px;
+        font-size: 14px; /* Smaller font size on smaller screens */
     }
 
     .title {
-        font-size: 20px;
+        font-size: 24px; /* Adjust title size for smaller screens */
     }
 }
