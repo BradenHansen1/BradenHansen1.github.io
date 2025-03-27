@@ -1,50 +1,27 @@
+
 body {
-    background-color: #f3e5ab; 
-    font-family: 'Comic Sans MS', cursive, sans-serif; 
-    color: #4b3621; 
-    text-align: center;
-    margin: 0;
-    padding: 0;
+background-color: #f8e2c5; / Light cookie background /
+font-family: 'Comic Sans MS', cursive, sans-serif; / Fun, playful typography /
+color: #6d4b3a; / Chocolate color for text */
+margin: 0;
+padding: 20px;
 }
-
 header {
-    background-color: #d2691e; 
-    padding: 20px;
-    font-size: 2em;
-    color: #fff; 
+text-align: center;
+margin-bottom: 30px;
 }
-
-button {
-    background-color: #8b4513; 
-    color: #fff; 
-    border: none;
-    padding: 15px 30px;
-    font-size: 1.5em;
-    cursor: pointer;
-    border-radius: 10px;
-    margin: 20px;
-    transition: background-color 0.3s ease;
+h1 {
+font-size: 48px;
+color: #a0522d; 
 }
-
-button:hover {
-    background-color: #a0522d; 
+@media (max-width: 600px) {
+h1 {
+font-size: 32px; 
 }
-
-.cookie {
-    width: 200px;
-    height: 200px;
-    background: url('https://th.bing.com/th/id/OIP.hOxi0V3MbDYNLkBY7AWkwwHaLH?w=156&h=198&c=7&r=0&o=5&pid=1.7') no-repeat center center;
-    background-size: contain;
-    margin: 20px auto;
-    cursor: pointer;
+h2 {
+font-size: 16px; 
 }
-
-footer {
-    background-color: #d2691e; 
-    padding: 10px;
-    font-size: 1em;
-    color: #fff; 
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-}
+ h1 {
+font-size: 36px;
+color: #a0522d; 
+}   
