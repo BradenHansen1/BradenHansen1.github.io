@@ -1,0 +1,67 @@
+
+body {
+background-color: #f4e1d4; / Light cookie color /
+font-family: 'Comic Sans MS', cursive, sans-serif;
+color: #5d3f29; / Darker chocolate color for text */
+margin: 0;
+padding: 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 20px;
+text-align: center;
+}
+
+.header {
+background-color: #d5b6a1; / Cookie base color */
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.header h1 {
+font-size: 2.5em;
+margin: 0;
+}
+
+.cookie-button {
+background-color: #a86a45; / Cookie center color */
+color: #fff;
+border: none;
+border-radius: 10px;
+padding: 15px 30px;
+font-size: 1.5em;
+cursor: pointer;
+transition: background-color 0.3s;
+}
+
+.cookie-button:hover {
+background-color: #8e592e; / Darker shade on hover */
+}
+
+.cookie-image {
+width: 150px;
+height: auto;
+margin: 20px 0;
+}
+
+@media (max-width: 768px) {
+.header h1 {
+font-size: 2em;
+}
+.cookie-button {
+padding: 10px 20px;
+font-size: 1.2em;
+}
+.cookie-image {
+width: 120px; /* Smaller size on mobile */
+}
+}
+
+.footer {
+margin-top: 40px;
+font-size: 0.9em;
+color: #7c5b43; / Soft brown for footer */
+}
