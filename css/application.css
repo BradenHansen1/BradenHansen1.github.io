@@ -1,22 +1,22 @@
 body {
-    background-color: #f3e5ab; /* Light cookie dough color */
-    font-family: 'Comic Sans MS', cursive, sans-serif; /* Playful font */
-    color: #4b3621; /* Dark chocolate color */
+    background-color: #f3e5ab; 
+    font-family: 'Comic Sans MS', cursive, sans-serif; 
+    color: #4b3621; 
     text-align: center;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #d2691e; /* Cookie brown */
+    background-color: #d2691e; 
     padding: 20px;
     font-size: 2em;
-    color: #fff; /* White text */
+    color: #fff; 
 }
 
 button {
-    background-color: #8b4513; /* Darker cookie brown */
-    color: #fff; /* White text */
+    background-color: #8b4513; 
+    color: #fff; 
     border: none;
     padding: 15px 30px;
     font-size: 1.5em;
@@ -27,23 +27,23 @@ button {
 }
 
 button:hover {
-    background-color: #a0522d; /* Slightly lighter brown */
+    background-color: #a0522d; 
 }
 
 .cookie {
     width: 200px;
     height: 200px;
-    background: url('https://example.com/cookie.png') no-repeat center center;
+    background: url('https://th.bing.com/th/id/OIP.hOxi0V3MbDYNLkBY7AWkwwHaLH?w=156&h=198&c=7&r=0&o=5&pid=1.7') no-repeat center center;
     background-size: contain;
     margin: 20px auto;
     cursor: pointer;
 }
 
 footer {
-    background-color: #d2691e; /* Cookie brown */
+    background-color: #d2691e; 
     padding: 10px;
     font-size: 1em;
-    color: #fff; /* White text */
+    color: #fff; 
     position: fixed;
     width: 100%;
     bottom: 0;
